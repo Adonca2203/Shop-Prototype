@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fd162d6e84b8f43955dc0f44336f4b, type: 3}
+  m_Name: Balding
+  m_EditorClassIdentifier: 
+  isEquipped: 0
+  itemName: Sleek Top
+  itemDescription: Take a bit off the top please.
+  itemImage: {fileID: -6390617351755015863, guid: 7b11aba46fcd64b4f8cc6dfcefb224ba,
+    type: 3}
+  equipmentType: 0
+  itemBuyPrice: 300
+  itemSellPrice: 200
