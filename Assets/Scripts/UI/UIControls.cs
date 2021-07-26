@@ -1,5 +1,6 @@
 using UnityEngine;
 using Assets.Scripts.HeroScripts;
+using UnityEngine.UI;
 
 namespace Assets.Scripts.UI
 {
@@ -11,6 +12,8 @@ namespace Assets.Scripts.UI
         public GameManager gameManager;
         public GameObject inventoryPanel;
         public GameObject shopPanel;
+        public GameObject exitGameWindow;
+        public Button exitGameButton;
         private Hero hero;
         [SerializeField] private ShopFlow shopFlow;
         private bool isTalking => shopFlow.shopTalk.awaitingInput;
@@ -21,6 +24,12 @@ namespace Assets.Scripts.UI
             gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
             inventoryPanel.SetActive(false);
             hero = GameObject.Find("Hero").GetComponent<Hero>();
+            exitGameButton.onClick.AddListener(ExitGame);
+        }
+
+        void ExitGame()
+        {
+            Application.Quit();
         }
 
         private void Update()
@@ -53,6 +62,11 @@ namespace Assets.Scripts.UI
                         return;
 
                 }
+            }
+
+            else if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                exitGameWindow.SetActive(!exitGameWindow.activeSelf);
             }
         }
     }

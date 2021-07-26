@@ -61,19 +61,19 @@
     <Compile Include="Assets\Scripts\UI\ShopButtonEvents.cs" />
     <Compile Include="Assets\Scripts\HeroScripts\CollisionCheck.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryItem.cs" />
+    <Compile Include="Assets\Scripts\UI\MoneyCount.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\UI\UIItem.cs" />
     <Compile Include="Assets\Scripts\UI\LoadInventory.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\HeroScripts\Movement.cs" />
     <Compile Include="Assets\Scripts\UI\UIPlayer.cs" />
+    <Compile Include="Assets\Scripts\UI\ShopTalk.cs" />
     <Compile Include="Assets\Scripts\UI\ShopFlow.cs" />
     <Compile Include="Assets\Scripts\UI\EquipmentSlot.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\UI\BuySellDrop.cs" />
     <Compile Include="Assets\Scripts\Inventory\PlayerInventory.cs" />
-    <Compile Include="Assets\Scripts\UI\MoneyCount.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
-    <Compile Include="Assets\Scripts\UI\ShopTalk.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
