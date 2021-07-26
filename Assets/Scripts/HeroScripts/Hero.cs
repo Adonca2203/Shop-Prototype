@@ -23,7 +23,7 @@ namespace Assets.Scripts.HeroScripts
         [SerializeField] private PlayerInventory inventoryGlossary;
         [HideInInspector] public UnityEvent<Hero> onEquipmentChange;
 
-        void Awake()
+        void Start()
         {
             inventoryManager = GameObject.Find("InventoryManager").GetComponent<InventoryManager>();
             Initialize();
